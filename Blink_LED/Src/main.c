@@ -71,9 +71,8 @@ int main(void)
 	while(1)
 	{
 		GPIO_ToggleOutputPin(GPIOD, GPIO_PIN_NO_12);
-		GPIO_ToggleOutputPin(GPIOD, GPIO_PIN_NO_14);
-		delay();
 		GPIO_ToggleOutputPin(GPIOD, GPIO_PIN_NO_13);
+		GPIO_ToggleOutputPin(GPIOD, GPIO_PIN_NO_14);
 		GPIO_ToggleOutputPin(GPIOD, GPIO_PIN_NO_15);
 		delay();
 	}
